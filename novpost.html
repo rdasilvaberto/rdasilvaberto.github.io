@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+                                        
+    <meta charset="utf-8">
+
+<title> Produção de eventos  </title>
+
+<!--css do bootstrap-->
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/meu_estilo.css" rel="stylesheet" type="text/css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body class="container">
+
+<!--início do menu-->
+<div classs="navbar-wrapper">
+    <div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header col-md-7">
+
+<!--botão quando fica pequeno-->
+   <button type="button" class="navbar-toggle" data-togle="collapse" data-target="navbar-collapse">
+
+    <spam class="sr-only"> togle navigation </spam> 
+    <spam class="icon-bar"> </spam>
+    <spam class="icon-bar"> </spam>
+    <spam class="icon-bar"> </spam>
+
+</button>
+
+<!--fim - botão quando fica pequeno-->
+<a  href="#"> <img src="img/logo.jpeg"  width="20%"> </a> <!--logo da empresa -->
+</div>
+
+
+
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+    <li class="action"> <a href=index.html> Início </a> </li>
+    <li> <a href="#sobre">Sobre </a> </li>
+    <li> <a href="#equipe"> Equipe </a> <li>
+    <li> <a href="#contato"> Contato </a> <li>
+    <li> <a href="blog.html"> Blog </a> <li>
+    <li> <a href="login.html"> Entrar </a> <li>
+    </ul>
+    </div>
+    </div> 
+    </div>
+    </div>
+</div>
+
+<!--fim do menu-->
+<br><br><br><br>
+
+
+
+<!--início novo post-->
+
+<div class="row"> <!--botões - usuário e postagem-->
+ <br><br><br>
+
+<div class="col-lg-12">
+<ul class="nav nav-pills">
+<li role="presentation" class="btnform">
+  <a href="usuario.html"> Gerenciar postagens </a>
+</li>
+
+<li role="presentation" class=active>
+  <a href="novpost.html"> Nova postagem </a>
+</li>
+</ul>
+</div>
+</div>
+
+<!--post-->
+<div class="row">
+  <div class="col-lg-10 col-lgoffset-1">
+  <div class="panel panel-default">
+  <div class="panel-body">
+
+  <!--formulário do novo post-->
+  <legend> Nova postagem </legend>
+  <form>
+  <div class="row">
+      
+  <div class="col-lg-6">
+  <inpute type="text" placeholder="titulo" class="form-control">
+  </div>
+
+  <div class="col-lg-4">
+  <select class="form-control">
+  <option selected> Formaturas </option>  <!--categoria-->
+  <option> Formaturas <option>
+  <option> Casamentos <option> 
+  <option> Aniversários <option>
+  </select>
+  </div>
+
+  <div class="col-lg-2">
+  <select class="form-control">
+  <option selected> Status <option>
+  <option selected> Publicado <option>
+  <option selected> Rascunhos <option>
+  </select>
+  </div>
+
+  <div class="col-lg-12"> <br>
+  <label> Imagem Destacada </label>
+  <input type="file" class="form-control">
+  </div>
+
+  <textarea placeholder="Sua postagem aqui" class="col-lg-12"> </textarea>
+
+  <div> <br>
+  <button class="btn btn-success btn-block"> Publicar </button>
+  </form>
+
+
+</div>
+</div> 
+</div>
+</div>  
+
+<!--fim do novo post-->
+
+
+
+<br>
+<!--início do rodapé-->
+<footer class="row footer text_f">
+
+<div class="col-lg-4">   <!--parte 1 logo-->
+
+<a href="index.html">
+<img src="img/logo.jpg" width="30%">
+</a>
+</div>
+
+<div class="col-lg-4 text_f"> <!--parte 2 desenvolvido por-->
+<br>
+Site desenvolvido por Rafaela Berto  &copy; 2017 <br>
+</div>
+
+<div class="col-lg-4 img_rod"> <!--parte 3 redes sociais-->
+<a href="#"><img src="img/facebook.png" width="10%" alt="facebook" title="facebook"> </a>
+<a href="#"><img src="img/twitter.png" width="10%" alt="twitter" title="twitter"> </a>
+<a href="#"><img src="img/whastapp.png" width="10%" alt="whastapp" title="whastapp"> </a>
+<a href="#"><img src="img/youtube.png" width="10%" alt="youtube" title="youtube"> </a>
+
+</div>
+
+</footer>
+<!--fim do rodapé-->
+
+
+<!--jquery (necessidade para os plugins javascript do bootstrap)-->
+<script src="js/jquery.js"> </script>
+<script src="js/bootstrap.min.js"> </script>
+
+
+
+</body>
+
+</html> 

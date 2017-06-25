@@ -1,0 +1,177 @@
+﻿/*
+
+div{
+border:#000 solid 1px
+}*/
+
+body{background-color:#FFC0CB;}
+
+.texto_centro {
+text-align: center;
+color:red; 
+font-family:purisa
+}
+
+ 
+.texto_centroh3{
+text-align: center;
+color:#FF6666
+}
+
+
+/* o que fazemos*/
+
+.parte1{background-color: #993366;
+text-align:justify;
+color:White
+}
+
+
+
+.parte2{background-color: #663366;
+text-align:justify;
+color:White
+}
+
+
+
+.parte3{background-color: #330033;
+text-align:justify;
+color:White
+}
+
+
+
+
+.data{ /*div da coluna*/
+background-color:#FFCCFF ;
+text-align: center;
+color: red;
+}
+
+.dia{ /*div do número*/
+font-size: 50px;
+}
+
+
+.titulo{/*div do título*/
+font-size: 50px;
+font-weight: bold;
+color: #330033;
+padding: 12px;
+}
+
+
+.escrito{/*paragrafo do escrito por*/
+font-size:20px;
+color: #993366;
+}
+
+
+.img{ /*div da imagem*/
+text-align: center;
+padding: 20px;
+}
+
+
+.textcont{ /*paragrafo do conteúdo*/
+padding: 10px;
+font-size: 15px;
+text-align: justify;
+}
+
+
+
+
+/*login*/
+.borda_inden{
+border: solid 1px red;
+border-radius: 10px;
+}
+
+
+
+/*rodapé*/
+.text_f{
+
+color: #fff ;
+background-color: #871F78;
+text-align: center; 
+}
+
+.img_rod{
+text-align: center;
+}
+
+
+/*post*/
+.data1{
+text-align:center;
+padding:10px;
+color: #ff8c00;
+background: black;
+}
+
+
+
+.data2{
+text-align: center;
+color: black;
+font-size: 200%;
+font-family:purisa;
+}
+
+
+.data3{
+text-align: justify;
+color:black;
+}
+
+
+/* A EQUIPE */
+
+.img_equi{
+	border: solid 3px #999;
+	/*border-radius: 10px;*/
+	padding: 20px;
+	background-color: #FA8072;
+	text-align: center;
+}
+
+.txt_equi{
+	margin-top: 10px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+
+/*.musica{
+background:#D8BFD8;
+text-align: center;
+}
+
+
+
+.produção{
+background:#E47833;
+text-align: center;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
